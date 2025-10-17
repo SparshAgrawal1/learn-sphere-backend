@@ -15,7 +15,7 @@ def extract_chapter_content(pdf_path: str) -> Optional[str]:
     """
     try:
         # pdf_path = "../public" + pdf_path
-        pdf_path = pdf_path.lstrip("/")
+        pdf_path = "./" + pdf_path.lstrip("/")
         if not os.path.exists(pdf_path):
             print(f"PDF file not found: {pdf_path}")
             return None
