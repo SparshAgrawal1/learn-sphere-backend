@@ -221,8 +221,6 @@ checkpoints/
 *.mp3
 *.m4a
 
-# PDF files (if any are generated)
-*.pdf
 
 # Temporary uploads
 uploads/
